@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel and Tour Wesite</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- header section starts  -->
+<header>
+    <div id="menu-bar" class="fa fa-bars"></div>
+    <a href="#" class="logo">
+        <img src="images/logo.png" alt="Logo" class="logo-img">
+        <span class="logo1">F</span><span class="logo2">L</span><span class="logo3">Y</span></a> 
+    <input type="checkbox" id="menu-bar">
+    <label for="menu-bar">Menu</label> 
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="Services.html">Services</a></li>
+            <li><a href="book.html">Book</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="icons">
+        <i class="fa fa-search" id="search-btn"></i>
+        <i class="fa fa-user" id="login-btn"></i>
+    </div>
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fa fa-search"></label>
+    </form>
+</header>
+<!-- header section ends -->
+<!-- login form container  -->
+<div class="login-form-container">
+    <i class="fa fa-times" id="form-close"></i>
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+</div>
+<!-- home section starts  -->
+<section class="home" id="home">
+    <div class="content">
+        <h3>Contact Us</h3>
+        <p>"Let's Connect and Craft Your Next Unforgettable Expedition."</p>
+    </div>
+    <div class="video-container">
+        <video src="images/vid-15.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+</section>
+<!-- home section ends -->
+<section class="location">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1DBhwGb5W_2Vu5gPLMN_IsT7_thE&hl=en&ehbc=2E312F" width="640" height="480"></iframe>" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+<!-- contact section starts  -->
+<section class="contact" id="contact">
+    <h1 class="contact-heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+    <div class="row">
+        <div class="image">
+            <img src="images/Travel 05.jpg" alt="">
+        </div>
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="contact-btn" value="send message">
+        </form>
+    </div>
+</section>
+<!-- contact section ends -->
+    <section class="contact-us">    
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>8A/room no.8 sharad society kamgar nagar</h5>
+                        <p>kurla(E) Mumbai-400024</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>(+91) 8291678381</h5>
+                        <p>Monday to Saturday,10AM to 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>poonamsangale2705@gmail.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+<!-- footer section  -->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>about us</h3>
+            <p>Welcome to Travel, your gateway to unforgettable adventures around the globe. With a passion for exploration and a commitment to excellence, we strive to curate unique travel experiences tailored to your desires. From breathtaking landscapes to cultural immersion, our expert team is dedicated to creating memories that last a lifetime. Join us as we embark on a journey of discovery together.</p>
+        </div>
+           <div class="box">
+            <h3>TOP DESTINATIONS</h3>
+            <a href="#">Delhi</a>
+            <a href="#">Mumbai</a>
+            <a href="#">Jaipur</a>
+            <a href="#">Agra</a>
+            <a href="#">Varanasi</a>
+            <a href="#">Udaipur</a>
+            <a href="#">Kolkata</a>
+            <a href="#">Amritsar</a>
+            <a href="#">Kochi</a>
+        </div>
+        <div class="box">
+            <h3>TRAVEL INTERESTS</h3>
+            <a href="#">Adventure Travel</a>
+            <a href="#">Art and Culture</a>
+            <a href="#">Beaches, Coasts, and Islands</a>
+            <a href="#">Family Holidays</a>
+            <a href="#">Festivals</a>
+            <a href="#">Food and Drink</a>
+            <a href="#">Road Trips</a>
+            <a href="#">Sustainable Travel</a>
+            <a href="#">Travel Gear and Tech</a>
+            <a href="#">Travel on a Budget</a>
+            <a href="#">Wildlife and Nature</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+    </div>
+    <h1 class="credit"> created by <span> Poonam Sangale </span> | all rights reserved! </h1>
+</section>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- custom js file link  -->
+<script src="script.js"></script>
+</body>
+</html>
